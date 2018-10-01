@@ -36,6 +36,10 @@
   #profile img {
     height: 250px !important;
   }
+  .projectContentDescription center img {
+    width: 260px !important;
+    height: 180px !important;
+  }
   #aboutText {
     float: none !important;
     text-align: center !important;
@@ -54,6 +58,9 @@
     float: none !important;
     position: relative !important;
     top: 300px !important;
+  }
+  #projectContentDescription img {
+    height: 250px !important;
   }
 }
 @media screen and (max-width: 767px) {
@@ -1242,6 +1249,10 @@ body {
 }
 #profile img {
   height: 400px;
+}
+.projectContentDescription center img {
+  width: 520px;
+  height: 360px;
 }
 
 #aboutText {
