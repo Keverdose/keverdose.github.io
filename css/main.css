@@ -1,0 +1,1610 @@
+@charset "UTF-8";
+@import url("//fonts.googleapis.com/css?family=Roboto:400,100,300,700");
+@media screen and (min-width: 767px) and (max-width: 950px) {
+  .navBar {
+    font-size: 10pt !important;
+  }
+  .navBar nav {
+    font-size: 10pt !important;
+  }
+  .navBar nav ul {
+    font-size: 10pt !important;
+  }
+  .navBar nav ul li {
+    font-size: 10pt !important;
+  }
+  .navBar nav ul li a {
+    font-size: 10pt !important;
+  }
+}
+@media screen and (max-width: 850px) {
+  #aboutSectionContainer {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: 100% !important;
+  }
+  #profile {
+    float: none !important;
+    left: 50% !important;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    height: 250px !important;
+  }
+  #profile img {
+    height: 250px !important;
+  }
+  #aboutText {
+    float: none !important;
+    text-align: center !important;
+    margin: inherit !important;
+    position: relative !important;
+    top: 250px !important;
+  }
+  #aboutTextMore {
+    float: none !important;
+    position: relative !important;
+    top: 350px !important;
+    margin: inherit !important;
+  }
+  .dash {
+    margin: inherit !important;
+    float: none !important;
+    position: relative !important;
+    top: 300px !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .navBar {
+    visibility: hidden !important;
+  }
+  .navBar nav {
+    visibility: hidden !important;
+  }
+  #middleContainer {
+    height: 300px !important;
+    width: 300px !important;
+  }
+  #profile {
+    visibility: visible !important;
+  }
+  #aboutText {
+    visibility: visible !important;
+    font-size: 20pt !important;
+  }
+  #aboutTextMore {
+    visibility: visible !important;
+    width: 420px !important;
+    font-size: 12pt !important;
+  }
+  .dash {
+    visibility: visible !important;
+    width: 430px !important;
+  }
+  #knowContainer {
+    visibility: visible !important;
+  }
+  .knowContent {
+    visibility: visible !important;
+  }
+  .projectContent {
+    visibility: visible !important;
+  }
+  .projectContentDescription {
+    width: 95% !important;
+  }
+  #contactContainer {
+    max-width: 210px !important;
+  }
+  .contactContent {
+    font-size: 40pt !important;
+    width: 60px !important;
+    height: 60px !important;
+    line-height: 60px !important;
+  }
+  .formContainer {
+    width: 100% !important;
+  }
+  .formContainer input[type="text"],
+  .formContainer textarea {
+    width: 80% !important;
+  }
+  .formContainer select {
+    width: 50% !important;
+  }
+  .formContainer input[type="button"],
+  .formContainer input[type="reset"] {
+    font-size: 12pt !important;
+    width: 150px !important;
+    height: 60px !important;
+  }
+}
+@media screen and (max-width: 480px) {
+  .knowContent {
+    width: 300px !important;
+  }
+  .formContainer select {
+    width: 40% !important;
+  }
+  .formContainer input[type="button"],
+  .formContainer input[type="reset"] {
+    width: 125px !important;
+  }
+  #aboutText {
+    visibility: visible !important;
+    font-size: 20pt !important;
+    width: 300px;
+  }
+  #aboutTextMore {
+    visibility: visible !important;
+    width: 300px !important;
+    font-size: 12pt !important;
+  }
+  .dash {
+    visibility: visible !important;
+    width: 310px !important;
+  }
+}
+.disableSelection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*
+==============================================
+flipUp
+==============================================
+*/
+.flipUp {
+  animation-name: flipUp;
+  -webkit-animation-name: flipUp;
+  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
+}
+@keyframes flipUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flipUp {
+  0% {
+    -webkit-transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+/*
+==============================================
+fastFlipUp
+==============================================
+*/
+.fastFlipUp {
+  animation-name: fastFlipUp;
+  -webkit-animation-name: fastFlipUp;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  animation-timing-function: ease;
+  -webkit-animation-timing-function: ease;
+  visibility: visible !important;
+}
+@keyframes fastFlipUp {
+  0% {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fastFlipUp {
+  0% {
+    -webkit-transform: translateY(30px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    opacity: 1;
+  }
+}
+/*
+==============================================
+fadeIn
+==============================================
+*/
+.fadeIn {
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1.0;
+  }
+}
+@font-face {
+  font-family: 'FontAwesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url('//weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.eot');
+  src: url('//weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.eot?#iefix') format('eot'), url('//weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.woff') format('woff'), url('//weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.ttf') format('truetype'), url('//weloveiconfonts.com/api/fonts/fontawesome/fontawesome-webfont.svg#FontAwesomeRegular') format('svg');
+}
+.fontawesome-glass:before {
+  content: "\f000";
+}
+.fontawesome-music:before {
+  content: "\f001";
+}
+.fontawesome-search:before {
+  content: "\f002";
+}
+.fontawesome-envelope:before {
+  content: "\f003";
+}
+.fontawesome-heart:before {
+  content: "\f004";
+}
+.fontawesome-star:before {
+  content: "\f005";
+}
+.fontawesome-star-empty:before {
+  content: "\f006";
+}
+.fontawesome-user:before {
+  content: "\f007";
+}
+.fontawesome-film:before {
+  content: "\f008";
+}
+.fontawesome-th-large:before {
+  content: "\f009";
+}
+.fontawesome-th:before {
+  content: "\f00a";
+}
+.fontawesome-th-list:before {
+  content: "\f00b";
+}
+.fontawesome-ok:before {
+  content: "\f00c";
+}
+.fontawesome-remove:before {
+  content: "\f00d";
+}
+.fontawesome-zoom-in:before {
+  content: "\f00e";
+}
+.fontawesome-zoom-out:before {
+  content: "\f010";
+}
+.fontawesome-off:before {
+  content: "\f011";
+}
+.fontawesome-signal:before {
+  content: "\f012";
+}
+.fontawesome-cog:before {
+  content: "\f013";
+}
+.fontawesome-trash:before {
+  content: "\f014";
+}
+.fontawesome-home:before {
+  content: "\f015";
+}
+.fontawesome-file:before {
+  content: "\f016";
+}
+.fontawesome-time:before {
+  content: "\f017";
+}
+.fontawesome-road:before {
+  content: "\f018";
+}
+.fontawesome-download-alt:before {
+  content: "\f019";
+}
+.fontawesome-download:before {
+  content: "\f01a";
+}
+.fontawesome-upload:before {
+  content: "\f01b";
+}
+.fontawesome-inbox:before {
+  content: "\f01c";
+}
+.fontawesome-play-circle:before {
+  content: "\f01d";
+}
+.fontawesome-repeat:before {
+  content: "\f01e";
+}
+.fontawesome-refresh:before {
+  content: "\f021";
+}
+.fontawesome-list-alt:before {
+  content: "\f022";
+}
+.fontawesome-lock:before {
+  content: "\f023";
+}
+.fontawesome-flag:before {
+  content: "\f024";
+}
+.fontawesome-headphones:before {
+  content: "\f025";
+}
+.fontawesome-volume-off:before {
+  content: "\f026";
+}
+.fontawesome-volume-down:before {
+  content: "\f027";
+}
+.fontawesome-volume-up:before {
+  content: "\f028";
+}
+.fontawesome-qrcode:before {
+  content: "\f029";
+}
+.fontawesome-barcode:before {
+  content: "\f02a";
+}
+.fontawesome-tag:before {
+  content: "\f02b";
+}
+.fontawesome-tags:before {
+  content: "\f02c";
+}
+.fontawesome-book:before {
+  content: "\f02d";
+}
+.fontawesome-bookmark:before {
+  content: "\f02e";
+}
+.fontawesome-print:before {
+  content: "\f02f";
+}
+.fontawesome-camera:before {
+  content: "\f030";
+}
+.fontawesome-font:before {
+  content: "\f031";
+}
+.fontawesome-bold:before {
+  content: "\f032";
+}
+.fontawesome-italic:before {
+  content: "\f033";
+}
+.fontawesome-text-height:before {
+  content: "\f034";
+}
+.fontawesome-text-width:before {
+  content: "\f035";
+}
+.fontawesome-align-left:before {
+  content: "\f036";
+}
+.fontawesome-align-center:before {
+  content: "\f037";
+}
+.fontawesome-align-right:before {
+  content: "\f038";
+}
+.fontawesome-align-justify:before {
+  content: "\f039";
+}
+.fontawesome-list:before {
+  content: "\f03a";
+}
+.fontawesome-indent-left:before {
+  content: "\f03b";
+}
+.fontawesome-indent-right:before {
+  content: "\f03c";
+}
+.fontawesome-facetime-video:before {
+  content: "\f03d";
+}
+.fontawesome-picture:before {
+  content: "\f03e";
+}
+.fontawesome-pencil:before {
+  content: "\f040";
+}
+.fontawesome-map-marker:before {
+  content: "\f041";
+}
+.fontawesome-adjust:before {
+  content: "\f042";
+}
+.fontawesome-tint:before {
+  content: "\f043";
+}
+.fontawesome-edit:before {
+  content: "\f044";
+}
+.fontawesome-share:before {
+  content: "\f045";
+}
+.fontawesome-check:before {
+  content: "\f046";
+}
+.fontawesome-move:before {
+  content: "\f047";
+}
+.fontawesome-step-backward:before {
+  content: "\f048";
+}
+.fontawesome-fast-backward:before {
+  content: "\f049";
+}
+.fontawesome-backward:before {
+  content: "\f04a";
+}
+.fontawesome-play:before {
+  content: "\f04b";
+}
+.fontawesome-pause:before {
+  content: "\f04c";
+}
+.fontawesome-stop:before {
+  content: "\f04d";
+}
+.fontawesome-forward:before {
+  content: "\f04e";
+}
+.fontawesome-fast-forward:before {
+  content: "\f050";
+}
+.fontawesome-step-forward:before {
+  content: "\f051";
+}
+.fontawesome-eject:before {
+  content: "\f052";
+}
+.fontawesome-chevron-left:before {
+  content: "\f053";
+}
+.fontawesome-chevron-right:before {
+  content: "\f054";
+}
+.fontawesome-plus-sign:before {
+  content: "\f055";
+}
+.fontawesome-minus-sign:before {
+  content: "\f056";
+}
+.fontawesome-remove-sign:before {
+  content: "\f057";
+}
+.fontawesome-ok-sign:before {
+  content: "\f058";
+}
+.fontawesome-question-sign:before {
+  content: "\f059";
+}
+.fontawesome-info-sign:before {
+  content: "\f05a";
+}
+.fontawesome-screenshot:before {
+  content: "\f05b";
+}
+.fontawesome-remove-circle:before {
+  content: "\f05c";
+}
+.fontawesome-ok-circle:before {
+  content: "\f05d";
+}
+.fontawesome-ban-circle:before {
+  content: "\f05e";
+}
+.fontawesome-arrow-left:before {
+  content: "\f060";
+}
+.fontawesome-arrow-right:before {
+  content: "\f061";
+}
+.fontawesome-arrow-up:before {
+  content: "\f062";
+}
+.fontawesome-arrow-down:before {
+  content: "\f063";
+}
+.fontawesome-share-alt:before {
+  content: "\f064";
+}
+.fontawesome-resize-full:before {
+  content: "\f065";
+}
+.fontawesome-resize-small:before {
+  content: "\f066";
+}
+.fontawesome-plus:before {
+  content: "\f067";
+}
+.fontawesome-minus:before {
+  content: "\f068";
+}
+.fontawesome-asterisk:before {
+  content: "\f069";
+}
+.fontawesome-exclamation-sign:before {
+  content: "\f06a";
+}
+.fontawesome-gift:before {
+  content: "\f06b";
+}
+.fontawesome-leaf:before {
+  content: "\f06c";
+}
+.fontawesome-fire:before {
+  content: "\f06d";
+}
+.fontawesome-eye-open:before {
+  content: "\f06e";
+}
+.fontawesome-eye-close:before {
+  content: "\f070";
+}
+.fontawesome-warning-sign:before {
+  content: "\f071";
+}
+.fontawesome-plane:before {
+  content: "\f072";
+}
+.fontawesome-calendar:before {
+  content: "\f073";
+}
+.fontawesome-random:before {
+  content: "\f074";
+}
+.fontawesome-comment:before {
+  content: "\f075";
+}
+.fontawesome-magnet:before {
+  content: "\f076";
+}
+.fontawesome-chevron-up:before {
+  content: "\f077";
+}
+.fontawesome-chevron-down:before {
+  content: "\f078";
+}
+.fontawesome-retweet:before {
+  content: "\f079";
+}
+.fontawesome-shopping-cart:before {
+  content: "\f07a";
+}
+.fontawesome-folder-close:before {
+  content: "\f07b";
+}
+.fontawesome-folder-open:before {
+  content: "\f07c";
+}
+.fontawesome-resize-vertical:before {
+  content: "\f07d";
+}
+.fontawesome-resize-horizontal:before {
+  content: "\f07e";
+}
+.fontawesome-bar-chart:before {
+  content: "\f080";
+}
+.fontawesome-twitter-sign:before {
+  content: "\f081";
+}
+.fontawesome-facebook-sign:before {
+  content: "\f082";
+}
+.fontawesome-camera-retro:before {
+  content: "\f083";
+}
+.fontawesome-key:before {
+  content: "\f084";
+}
+.fontawesome-cogs:before {
+  content: "\f085";
+}
+.fontawesome-comments:before {
+  content: "\f086";
+}
+.fontawesome-thumbs-up:before {
+  content: "\f087";
+}
+.fontawesome-thumbs-down:before {
+  content: "\f088";
+}
+.fontawesome-star-half:before {
+  content: "\f089";
+}
+.fontawesome-heart-empty:before {
+  content: "\f08a";
+}
+.fontawesome-signout:before {
+  content: "\f08b";
+}
+.fontawesome-linkedin-sign:before {
+  content: "\f08c";
+}
+.fontawesome-pushpin:before {
+  content: "\f08d";
+}
+.fontawesome-external-link:before {
+  content: "\f08e";
+}
+.fontawesome-signin:before {
+  content: "\f090";
+}
+.fontawesome-trophy:before {
+  content: "\f091";
+}
+.fontawesome-github-sign:before {
+  content: "\f092";
+}
+.fontawesome-upload-alt:before {
+  content: "\f093";
+}
+.fontawesome-lemon:before {
+  content: "\f094";
+}
+.fontawesome-phone:before {
+  content: "\f095";
+}
+.fontawesome-check-empty:before {
+  content: "\f096";
+}
+.fontawesome-bookmark-empty:before {
+  content: "\f097";
+}
+.fontawesome-phone-sign:before {
+  content: "\f098";
+}
+.fontawesome-twitter:before {
+  content: "\f099";
+}
+.fontawesome-facebook:before {
+  content: "\f09a";
+}
+.fontawesome-github:before {
+  content: "\f09b";
+}
+.fontawesome-unlock:before {
+  content: "\f09c";
+}
+.fontawesome-credit-card:before {
+  content: "\f09d";
+}
+.fontawesome-rss:before {
+  content: "\f09e";
+}
+.fontawesome-hdd:before {
+  content: "\f0a0";
+}
+.fontawesome-bullhorn:before {
+  content: "\f0a1";
+}
+.fontawesome-bell:before {
+  content: "\f0a2";
+}
+.fontawesome-certificate:before {
+  content: "\f0a3";
+}
+.fontawesome-hand-right:before {
+  content: "\f0a4";
+}
+.fontawesome-hand-left:before {
+  content: "\f0a5";
+}
+.fontawesome-hand-up:before {
+  content: "\f0a6";
+}
+.fontawesome-hand-down:before {
+  content: "\f0a7";
+}
+.fontawesome-circle-arrow-left:before {
+  content: "\f0a8";
+}
+.fontawesome-circle-arrow-right:before {
+  content: "\f0a9";
+}
+.fontawesome-circle-arrow-up:before {
+  content: "\f0aa";
+}
+.fontawesome-circle-arrow-down:before {
+  content: "\f0ab";
+}
+.fontawesome-globe:before {
+  content: "\f0ac";
+}
+.fontawesome-wrench:before {
+  content: "\f0ad";
+}
+.fontawesome-tasks:before {
+  content: "\f0ae";
+}
+.fontawesome-filter:before {
+  content: "\f0b0";
+}
+.fontawesome-briefcase:before {
+  content: "\f0b1";
+}
+.fontawesome-fullscreen:before {
+  content: "\f0b2";
+}
+.fontawesome-group:before {
+  content: "\f0c0";
+}
+.fontawesome-link:before {
+  content: "\f0c1";
+}
+.fontawesome-cloud:before {
+  content: "\f0c2";
+}
+.fontawesome-beaker:before {
+  content: "\f0c3";
+}
+.fontawesome-cut:before {
+  content: "\f0c4";
+}
+.fontawesome-copy:before {
+  content: "\f0c5";
+}
+.fontawesome-paper-clip:before {
+  content: "\f0c6";
+}
+.fontawesome-save:before {
+  content: "\f0c7";
+}
+.fontawesome-sign-blank:before {
+  content: "\f0c8";
+}
+.fontawesome-reorder:before {
+  content: "\f0c9";
+}
+.fontawesome-list-ul:before {
+  content: "\f0ca";
+}
+.fontawesome-list-ol:before {
+  content: "\f0cb";
+}
+.fontawesome-strikethrough:before {
+  content: "\f0cc";
+}
+.fontawesome-underline:before {
+  content: "\f0cd";
+}
+.fontawesome-table:before {
+  content: "\f0ce";
+}
+.fontawesome-magic:before {
+  content: "\f0d0";
+}
+.fontawesome-truck:before {
+  content: "\f0d1";
+}
+.fontawesome-pinterest:before {
+  content: "\f0d2";
+}
+.fontawesome-pinterest-sign:before {
+  content: "\f0d3";
+}
+.fontawesome-google-plus-sign:before {
+  content: "\f0d4";
+}
+.fontawesome-google-plus:before {
+  content: "\f0d5";
+}
+.fontawesome-money:before {
+  content: "\f0d6";
+}
+.fontawesome-caret-down:before {
+  content: "\f0d7";
+}
+.fontawesome-caret-up:before {
+  content: "\f0d8";
+}
+.fontawesome-caret-left:before {
+  content: "\f0d9";
+}
+.fontawesome-caret-right:before {
+  content: "\f0da";
+}
+.fontawesome-columns:before {
+  content: "\f0db";
+}
+.fontawesome-sort:before {
+  content: "\f0dc";
+}
+.fontawesome-sort-down:before {
+  content: "\f0dd";
+}
+.fontawesome-sort-up:before {
+  content: "\f0de";
+}
+.fontawesome-envelope-alt:before {
+  content: "\f0e0";
+}
+.fontawesome-linkedin:before {
+  content: "\f0e1";
+}
+.fontawesome-undo:before {
+  content: "\f0e2";
+}
+.fontawesome-legal:before {
+  content: "\f0e3";
+}
+.fontawesome-dashboard:before {
+  content: "\f0e4";
+}
+.fontawesome-comment-alt:before {
+  content: "\f0e5";
+}
+.fontawesome-comments-alt:before {
+  content: "\f0e6";
+}
+.fontawesome-bolt:before {
+  content: "\f0e7";
+}
+.fontawesome-sitemap:before {
+  content: "\f0e8";
+}
+.fontawesome-umbrella:before {
+  content: "\f0e9";
+}
+.fontawesome-paste:before {
+  content: "\f0ea";
+}
+.fontawesome-lightbulb:before {
+  content: "\f0eb";
+}
+.fontawesome-exchange:before {
+  content: "\f0ec";
+}
+.fontawesome-cloud-download:before {
+  content: "\f0ed";
+}
+.fontawesome-cloud-upload:before {
+  content: "\f0ee";
+}
+.fontawesome-user-md:before {
+  content: "\f0f0";
+}
+.fontawesome-stethoscope:before {
+  content: "\f0f1";
+}
+.fontawesome-suitcase:before {
+  content: "\f0f2";
+}
+.fontawesome-bell-alt:before {
+  content: "\f0f3";
+}
+.fontawesome-coffee:before {
+  content: "\f0f4";
+}
+.fontawesome-food:before {
+  content: "\f0f5";
+}
+.fontawesome-file-alt:before {
+  content: "\f0f6";
+}
+.fontawesome-building:before {
+  content: "\f0f7";
+}
+.fontawesome-hospital:before {
+  content: "\f0f8";
+}
+.fontawesome-ambulance:before {
+  content: "\f0f9";
+}
+.fontawesome-medkit:before {
+  content: "\f0fa";
+}
+.fontawesome-fighter-jet:before {
+  content: "\f0fb";
+}
+.fontawesome-beer:before {
+  content: "\f0fc";
+}
+.fontawesome-h-sign:before {
+  content: "\f0fd";
+}
+.fontawesome-plus-sign-alt:before {
+  content: "\f0fe";
+}
+.fontawesome-double-angle-left:before {
+  content: "\f100";
+}
+.fontawesome-double-angle-right:before {
+  content: "\f101";
+}
+.fontawesome-double-angle-up:before {
+  content: "\f102";
+}
+.fontawesome-double-angle-down:before {
+  content: "\f103";
+}
+.fontawesome-angle-left:before {
+  content: "\f104";
+}
+.fontawesome-angle-right:before {
+  content: "\f105";
+}
+.fontawesome-angle-up:before {
+  content: "\f106";
+}
+.fontawesome-angle-down:before {
+  content: "\f107";
+}
+.fontawesome-desktop:before {
+  content: "\f108";
+}
+.fontawesome-laptop:before {
+  content: "\f109";
+}
+.fontawesome-tablet:before {
+  content: "\f10a";
+}
+.fontawesome-mobile-phone:before {
+  content: "\f10b";
+}
+.fontawesome-circle-blank:before {
+  content: "\f10c";
+}
+.fontawesome-quote-left:before {
+  content: "\f10d";
+}
+.fontawesome-quote-right:before {
+  content: "\f10e";
+}
+.fontawesome-spinner:before {
+  content: "\f110";
+}
+.fontawesome-circle:before {
+  content: "\f111";
+}
+.fontawesome-reply:before {
+  content: "\f112";
+}
+.fontawesome-github-alt:before {
+  content: "\f113";
+}
+.fontawesome-folder-close-alt:before {
+  content: "\f114";
+}
+.fontawesome-folder-open-alt:before {
+  content: "\f115";
+}
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: auto;
+}
+* ::selection {
+  background-color: black;
+}
+*:focus {
+  outline: none;
+}
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+body {
+  background-color: white;
+}
+.navBar {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.navBar nav {
+  visibility: hidden;
+  display: table;
+  color: white;
+  height: 60px;
+  left: 0;
+  line-height: 60px;
+  position: fixed;
+  right: 0;
+  table-layout: fixed;
+  top: 0;
+  text-shadow: 0px 0px 7px #000000;
+  width: 100%;
+  z-index: 99999;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.navBar nav ul {
+  display: table-row;
+  margin: 0;
+  padding: 0;
+}
+.navBar nav ul li {
+  display: table-cell;
+  list-style: none;
+  text-align: center;
+}
+.navBar nav ul li a {
+  font-weight: 300;
+  color: white;
+  display: block;
+  padding: 10px 0;
+  text-decoration: none;
+  border-bottom: solid 2px rgba(0, 0, 0, 0);
+  transition: border-bottom 0.3s;
+}
+.navBar nav ul li a:hover {
+  border-bottom: solid 2px white;
+}
+.navBar nav:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-shadow: none;
+}
+.navOpac {
+  background-color: rgba(0, 0, 0, 0.7);
+  text-shadow: none !important;
+}
+.introSection {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url("../img/hero.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-bottom: solid 1px black;
+}
+#middleContainer {
+  position: absolute;
+  opacity: 0.7;
+  height: 50%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.letterBox {
+  visibility: hidden;
+  font-size: 25pt;
+  font-weight: 100;
+  text-align: center;
+  line-height: 100px;
+  background-color: black;
+  color: white;
+  float: left;
+  height: calc(33.33333333%);
+  max-height: 100px;
+  width: calc(33.33333333%);
+  max-width: 100px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  -ms-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.hoverShrink:hover {
+  -webkit-transform: scale(0.9);
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  transform: scale(0.9);
+}
+#scroll {
+  position: absolute;
+  visibility: hidden;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  font-size: 13pt;
+  top: 90%;
+  color: white;
+  letter-spacing: 4px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0px 0px 7px #000000;
+}
+#scroll:hover {
+  cursor: pointer;
+}
+#scroll a {
+  text-decoration: none;
+  color: white;
+}
+#scrollTriangle {
+  position: absolute;
+  visibility: hidden;
+  left: 50%;
+  top: 94%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+  margin: 0px auto;
+  height: 2px;
+  width: 50px;
+  margin-top: 15px;
+}
+#scrollTriangle:before {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 50%;
+  background: white;
+  -webkit-transform: skew(0deg, 30deg);
+  -moz-transform: skew(0deg, 30deg);
+  -ms-transform: skew(0deg, 30deg);
+  -o-transform: skew(0deg, 30deg);
+  transform: skew(0deg, 30deg);
+}
+#scrollTriangle:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50%;
+  background: white;
+  -webkit-transform: skew(0deg, -30deg);
+  -moz-transform: skew(0deg, -30deg);
+  -ms-transform: skew(0deg, -30deg);
+  -o-transform: skew(0deg, -30deg);
+  transform: skew(0deg, -30deg);
+}
+#scrollTriangle:hover {
+  cursor: pointer;
+}
+.aboutSection {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  padding-top: 4em;
+  padding-bottom: 4em;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #BFBEBC;
+  background-color: #f5f5f5;
+}
+#aboutSectionInfoContainer {
+  position: absolute;
+  width: 1100px;
+  height: 500px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+#profile {
+  position: absolute;
+  height: 500px;
+  width: auto;
+  float: left;
+  visibility: hidden;
+}
+#profile img {
+  height: 400px;
+}
+
+#aboutText {
+  float: right;
+  margin-top: 4em;
+  margin-right: 2em;
+  font-weight: 100;
+  letter-spacing: 10px;
+  color: #949494;
+  font-size: 30pt;
+  visibility: hidden;
+  z-index: 999;
+}
+#aboutTextMore {
+  float: right;
+  margin-top: 1.5em;
+  margin-right: 3em;
+  text-align: center;
+  color: #949494;
+  width: 525px;
+  height: auto;
+  font-size: 15pt;
+  font-weight: 300;
+  visibility: hidden;
+  z-index: 999;
+}
+#aboutTextMore a {
+  text-decoration: underline;
+  color: #272727;
+  transition: color 0.3s;
+}
+#aboutTextMore a:hover {
+  color: #949494;
+}
+.dash {
+  float: right;
+  margin-top: 2em;
+  margin-right: 2.5em;
+  width: 550px;
+  height: 2px;
+  background-color: #c2c2c2;
+  visibility: hidden;
+  z-index: 999;
+}
+.knowledgeSection {
+  position: relative;
+  width: 100%;
+  padding-top: 110px;
+  padding-bottom: 50px;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: black;
+  margin-top: none;
+}
+#knowText {
+  font-size: 35pt;
+  font-weight: 100;
+  color: #979694;
+  text-align: center;
+  letter-spacing: 10px;
+  margin: auto;
+}
+#knowContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+  visibility: hidden;
+}
+.knowContent {
+  overflow: hidden;
+  display: inline-block;
+  height: 350px;
+  width: 350px;
+  margin: 10px;
+  vertical-align: top;
+}
+.knowContentLogo {
+  margin-top: 45px;
+  height: 80px;
+  width: 80px;
+}
+.knowContentLogo img {
+  height: 100%;
+  width: 100%;
+}
+.knowContentLogoG {
+  margin-top: 45px;
+  height: 80px;
+  width: 143px;
+}
+.knowContentLogoG img {
+  height: 100%;
+  width: 100%;
+}
+.knowContentLogoS {
+  margin-top: 45px;
+  height: 80px;
+  width: 120px;
+}
+.knowContentLogoS img {
+  height: 100%;
+  width: 100%;
+}
+.knowContentTitle {
+  margin-top: 20px;
+  font-size: 20pt;
+  font-weight: 300;
+  letter-spacing: 5px;
+  color: #979694;
+}
+.knowContentDivider {
+  height: 2px;
+  width: 300px;
+  margin-top: 30px;
+  background-color: #bcbab6;
+}
+.knowContentDescription {
+  font-size: 12pt;
+  max-width: 300px;
+  margin-top: 30px;
+  color: #979694;
+  font-weight: 400;
+}
+.knowContentDescription a {
+  color: black;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+.knowContentDescription a:hover {
+  color: #979694;
+}
+.projectsSection {
+  padding-top: 100px;
+  padding-bottom: 50px;
+  border-bottom: solid 1px black;
+  width: 100%;
+  color: #9c9c9c;
+  background-color: #363636;
+}
+#projectsTitle {
+  font-size: 35pt;
+  font-weight: 100;
+  text-align: center;
+  letter-spacing: 10px;
+  margin: auto;
+}
+#projectsContainer {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.projectContent {
+  overflow: hidden;
+  display: inline-block;
+  width: 90%;
+  vertical-align: top;
+  padding-bottom: 20px;
+  text-align: center;
+  visibility: hidden;
+}
+.projectContent a {
+  text-decoration: underline;
+  color: #BFBEBC;
+  transition: color 0.3s;
+}
+.projectContent a:hover {
+  color: #9c9c9c;
+}
+.projectContent.dark {
+  background-color: #343434;
+}
+.projectContent.light {
+  background-color: #3a3a3a;
+}
+.projectContentTitle {
+  color: #898989;
+  margin-top: 30px;
+  font-size: 20pt;
+  letter-spacing: 8px;
+  font-weight: 300;
+  text-align: center;
+  border-bottom: solid 1px #9c9c9c;
+  z-index: 999;
+}
+.projectContentDescription {
+  margin-top: 15px;
+  font-weight: 400;
+  text-align: justify;
+  width: 70%;
+  z-index: 999;
+}
+.projectContentDescription a{
+  text-decoration: underline;
+  color: #BFBEBC;
+  transition: color 0.3s;
+}
+.socialSection {
+  position: relative;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: white;
+  border-bottom: solid 1px #BFBEBC;
+}
+.socialText {
+  position: relative;
+  font-size: 35pt;
+  letter-spacing: 8px;
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #949494;
+}
+#contactContainer {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 20px;
+  text-align: center;
+}
+.contactContent {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+  color: #949494;
+  line-height: 100px;
+  font-size: 60pt;
+  vertical-align: top;
+}
+.contactContent:hover {
+  cursor: pointer;
+}
+.facebook {
+  transition: color 0.3s;
+}
+.facebook:hover {
+  color: #3B5998;
+}
+.github {
+  transition: color 0.3s;
+}
+.github:hover {
+  color: #4183C4;
+}
+.twitter {
+  transition: color 0.3s;
+}
+.twitter:hover {
+  color: #00ACED;
+}
+.resume {
+  transition: color 0.3s;
+}
+.resume:hover {
+  color: black;
+}
+.linkedin {
+  transition: color 0.3s;
+}
+.linkedin:hover {
+  color: #006699;
+}
+.contactSection {
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 30px;
+  background-color: #f5f5f5;
+}
+.contactText {
+  position: relative;
+  font-size: 35pt;
+  letter-spacing: 8px;
+  font-weight: 100;
+  text-align: center;
+  color: #949494;
+  margin-bottom: 50px;
+}
+.formContainer {
+  position: relative;
+  width: 70%;
+}
+.formContainer input[type="text"],
+.formContainer textarea {
+  width: 60%;
+  position: relative;
+  padding: 10px;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  border-radius: 0px;
+  transition: all 0.3s;
+  background-color: rgba(0, 0, 0, 0);
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 15pt;
+  color: #c9c9c9;
+}
+.formContainer input[type="text"]:focus,
+.formContainer textarea:focus,
+.formContainer input[type="text"] .focus,
+.formContainer textarea .focus {
+  border-bottom: solid 2px #969696;
+  color: #969696;
+}
+.formContainer select {
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  color: #c9c9c9;
+  width: 40%;
+  border: none;
+  border-bottom: solid 2px #c9c9c9;
+  font-size: 12pt;
+  border-radius: 0px;
+}
+.formContainer input[type="button"],
+.formContainer input[type="reset"] {
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 10px;
+  color: #c9c9c9;
+  border: solid 2px #c9c9c9;
+  border-radius: 0px;
+  transition: all 0.3s;
+  width: 100px;
+  height: 40px;
+}
+.formContainer input[type="button"]:hover,
+.formContainer input[type="reset"]:hover {
+  color: #969696;
+  border: solid 2px #969696;
+}
+.formContainer input[type="reset"] {
+  margin-left: 20px;
+}
+.error {
+  border-bottom: solid 2px red !important;
+}
+.footer {
+  font-size: 10pt;
+  font-weight: 100;
+  height: 20px;
+  background-color: #272727;
+  color: #969696;
+  text-align: center;
+  line-height: 20px !important;
+}
+::-webkit-input-placeholder {
+  font-weight: 300;
+}
+:-moz-placeholder {
+  font-weight: 300;
+}
+::-moz-placeholder {
+  font-weight: 300;
+}
+:-ms-input-placeholder {
+  font-weight: 300;
+}

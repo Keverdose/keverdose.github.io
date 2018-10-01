@@ -1,0 +1,179 @@
+// I
+@media screen and (min-width: 767px) and (max-width: 950px) {
+	// Don't
+	.navBar {
+		font-size: 10pt !important;
+		// Know
+		& nav {
+			font-size: 10pt !important;
+			// Why
+			ul {
+				font-size: 10pt !important;
+				// This
+				li {
+					font-size: 10pt !important;
+					// Isn't
+					a {
+						font-size: 10pt !important;
+						// Working
+					}
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 850px) {
+    #aboutSectionContainer {
+        width: 100% !important;
+        max-width: 100% !important;
+        min-width: 100% !important;
+    }
+
+    #profile {
+        float: none !important;
+        left: 50% !important;
+        .prefixed(transform, translateX(-50%));
+
+        height: 250px !important;
+
+        & img {
+            height: 250px !important;
+        }
+    }
+
+    #aboutText {
+        float: none !important;
+        text-align: center !important;
+        margin: inherit !important;
+        position: relative !important;
+        top: 250px !important;
+    }
+
+    #aboutTextMore {
+        float: none !important;
+        position: relative !important;
+        top: 350px !important;
+        margin: inherit !important;
+    }
+
+    .dash {
+        margin: inherit !important;
+        float: none !important;
+        position: relative !important;
+        top: 300px !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .navBar {
+        visibility: hidden !important;
+        & nav {
+            visibility: hidden !important;
+        }
+    }
+
+    #middleContainer {
+        height: 300px !important;
+        width: 300px !important;
+    }
+
+    #profile {
+        visibility: visible !important;
+    }
+    
+
+    #aboutText {
+        visibility: visible !important;
+        font-size: 20pt !important;
+    }
+
+    #aboutTextMore {
+        visibility: visible !important;
+        width: 420px !important;
+        font-size: 12pt !important;
+    }
+
+    .dash {
+        visibility: visible !important;
+        width: 430px !important;
+    }
+
+    #knowContainer {
+        visibility: visible !important;
+    }
+
+    .knowContent {
+        visibility: visible !important;
+    }
+
+    .projectContent {
+        visibility: visible !important;
+    }
+
+    .projectContentDescription {
+        width: 95% !important;
+    }
+
+    #contactContainer {
+        max-width: 210px !important;
+    }
+
+    .contactContent {
+        font-size: 40pt !important;
+        width: 60px !important;
+        height: 60px !important;
+        line-height: 60px !important;
+    }
+
+    .formContainer {
+        width: 100% !important;
+
+        & input[type="text"],textarea {
+            width: 80% !important;
+        }
+
+        & select {
+            width: 50% !important;
+        }
+
+        & input[type="button"],input[type="reset"] {
+            font-size: 12pt !important;
+            width: 150px !important;
+            height: 60px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .knowContent {
+        width: 300px !important;
+    }
+
+    .formContainer {
+        & select {
+            width: 40% !important;
+        }
+
+        & input[type="button"],input[type="reset"] {
+            width: 125px !important;
+        }
+    }
+
+    #aboutText {
+        visibility: visible !important;
+        font-size: 20pt !important;
+        width: 300px;
+    }
+
+    #aboutTextMore {
+        visibility: visible !important;
+        width: 300px !important;
+        font-size: 12pt !important;
+    }
+
+    .dash {
+        visibility: visible !important;
+        width: 310px !important;
+    }
+}
